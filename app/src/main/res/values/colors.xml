@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0385cd</color>
+    <color name="colorPrimaryDark">#044E77</color>
+    <color name="colorAccent">#0626F1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="detail_background">#ABDDEB</color>
+    <color name="detail_min_temp">#FAF9F7</color>
+    <color name="light_sky_blue">#1ca8f5</color>
+    <color name="Beige">#ABDDEB</color>
+    <color name="selected">#F3F1F1</color>
+    <color name="unselected"></color>
+    <color name="black">#363636</color>
+    <color name="cancel_button">#FAF0E6</color>
+    <color name="button_normal_bg">#74D7E0</color>
+    <color name="button_press_bg">#B5DCE2</color>
+
+
+</resources>

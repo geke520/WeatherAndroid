@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="map_location">地图定位</string>
+    <string name="settings">设置</string>
+    <string name="setting_location">当前位置</string>
+    <string name="setting_temp_unit">温度单位</string>
+    <string name="setting_weather_notification">天气通知</string>
+    <string name="input_city_info">请输入城市名</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确认</string>
+    <string name="gaode_map">高德地图</string>
+    <string name="baidu_map">百度地图</string>
+    <string name="tencent_map">腾讯地图</string>
+</resources>

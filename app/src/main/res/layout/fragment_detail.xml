@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/detail_background"
+    android:showDividers="middle"
+    android:divider="@drawable/my_divider">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    tools:text="明天"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_gravity="left"
+                    android:id="@+id/detail_day_text_view"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="11月21日"
+                    android:textSize="15sp"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp"
+                    android:padding="8dp"
+                    android:layout_gravity="left"
+                    android:id="@+id/detail_date_text_view"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:layout_gravity=""
+                android:id="@+id/detail_weather_type_icon"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/detail_temp_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            tools:text="12°"
+            android:textColor="@color/white"
+            android:textSize="65sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                tools:text="15°"
+                android:id="@+id/detail_max_temp_text_view"/>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:text="/"
+                android:padding="4dp"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="20sp"
+                tools:text="6°"
+                android:textColor="@color/detail_min_temp"
+                android:id="@+id/detail_min_temp_text_view"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_marginTop="18dp"
+        android:id="@+id/detail_hour_recycler_view"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:layout_marginTop="18dp"
+        android:id="@+id/detail_life_tip_recycler_view">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
